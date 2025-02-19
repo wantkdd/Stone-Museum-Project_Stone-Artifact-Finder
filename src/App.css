@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #f9f6f1;
+  color: #4a4a4a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+div {
+  text-align: center;
+  padding: 20px;
+}
+
+/* 타이틀 */
+h1 {
+  font-size: 2.5rem;
+  color: #5a4a42;
+  margin-bottom: 20px;
+}
+
+/* 버튼 스타일 */
+button {
+  background-color: #7d6b5b;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 10px;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background-color: #5a4a42;
+}
+
+/* 비디오 및 이미지 영역 */
+video,
+img {
+  margin-top: 20px;
+  border: 5px solid #7d6b5b;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 600px;
+}
+
+/* 결과 섹션 */
+h2 {
+  font-size: 1.8rem;
+  color: #5a4a42;
+  margin-top: 20px;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+}
